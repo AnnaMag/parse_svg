@@ -3,7 +3,7 @@ var extractor = require('./extract_path.js')
 
 
 //var svg = extractor(__dirname + '/../drawsvg.svg')
-var svg = extractor(__dirname + '../examples/ex.svg')
+var svg = extractor(__dirname + '/ex.svg')
 
 //test example from the svg specifications
 var d=`M3,7 5-6 L1,7 1e2-.4 m-10,10 l10,0
